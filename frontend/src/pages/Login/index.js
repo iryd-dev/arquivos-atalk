@@ -17,7 +17,7 @@ const Copyright = () => {
     <Typography variant="body2" color="primary" align="center">
       {"Copyright "}
       <Link color="primary" href="#">
-        CANAL VEM FAZER
+        Atalk
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -114,7 +114,7 @@ const Login = () => {
           <p>
             Copyright ©{" "}
             <a href={"#"} target={"_blank"}>
-              Canal Vem Fazer{""}
+              Atalk{""}
             </a>{" "}
             2024{" "}
           </p>
