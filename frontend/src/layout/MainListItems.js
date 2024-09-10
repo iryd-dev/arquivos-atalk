@@ -585,7 +585,7 @@ const MainListItems = (props) => {
       
       <Divider />
       {/**versão do software */}
-      <Typography variant="caption" align="center" style={{ marginTop: 10, display: 'flex', alignItems: 'center', justifyContent: 'center' }}> By Canal Vem Fazer</Typography>
+      <Typography variant="caption" align="center" style={{ marginTop: 10, display: 'flex', alignItems: 'center', justifyContent: 'center' }}> Atalk</Typography>
     </div>
   );
 };
