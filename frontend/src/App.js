@@ -25,7 +25,7 @@ const App = () => {
     const [mode, setMode] = useState(preferredTheme ? preferredTheme : prefersDarkMode ? "dark" : "light");
 
     const [primaryColorLight, setPrimaryColorLight] = useState("#F3F3F3");
-    const [primaryColorDark, setPrimaryColorDark] = useState("#333333");
+    const [primaryColorDark, setPrimaryColorDark] = useState("#0065ff");
     const [appLogoLight, setAppLogoLight] = useState("");
     const [appLogoDark, setAppLogoDark] = useState("");
     const [appLogoFavicon, setAppLogoFavicon] = useState("");
@@ -161,7 +161,7 @@ const App = () => {
                  total: mode === "light" ? "#fff" : "#222",
                  messageIcons: mode === "light" ? "grey" : "#F3F3F3",
                  inputBackground: mode === "light" ? "#FFFFFF" : "#333",
-                 barraSuperior: mode === "light" ? "linear-gradient(to right, #000000, #000000, #000000)" : "#666",
+                 barraSuperior: mode === "light" ? "linear-gradient(to right, #0065ff, #0065ff, #0065ff)" : "#0065ff",
                  boxticket: mode === "light" ? "#EEE" : "#333",
                  campaigntab: mode === "light" ? "#ededed" : "#333",
                  drawerIcons: mode === "light" ? "#000000" : "inherit",
