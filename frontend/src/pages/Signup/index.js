@@ -31,7 +31,7 @@ const Copyright = () => {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="#">
-        CANAL VEM FAZER
+       Atalk
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -132,7 +132,7 @@ const SignUp = () => {
           <h4 className="h4">⚡ Cadastre-se</h4>
           <div>
             <span className="span">
-              👋🏻 Comece seu <b>teste GRATUITO</b> de 3 dias do Canal Vem Fazer em
+              👋🏻 Comece seu <b>teste GRATUITO</b> de 3 dias do Atalk em
               apenas 3 etapas!{" "}
               <b>Não se preocupe, nós não pedimos dados do seu cartão.</b> 💳
             </span>
